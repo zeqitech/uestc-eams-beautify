@@ -32,7 +32,7 @@ const addTitle = function () {
   } else {
     return
   }
-  clearInterval(changeTitle)
+  window.clearInterval(changeTitle)
 }
 
 const addIcon = function () {
@@ -42,7 +42,8 @@ const addIcon = function () {
   document.getElementsByTagName('head')[0].appendChild(icon)
 }
 window.addEventListener('click', function () {
-  var changeTitle = setInterval(addTitle, 100)
+  window.changeTitle = window.setInterval(addTitle, 100)
 })
+
 addIcon()
 console.log('success!')
