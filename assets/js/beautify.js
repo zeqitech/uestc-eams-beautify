@@ -4,6 +4,7 @@
 const addTitle = function () {
   const pageTitle = document.getElementsByTagName('title')[0]
   const pageUrl = window.location.href
+  console.log(pageUrl)
   if (
     pageUrl === 'http://eams.uestc.edu.cn/eams/home!submenus.action?menu.id='
   ) {
@@ -28,7 +29,10 @@ const addTitle = function () {
     'http://eams.uestc.edu.cn/eams/home!childmenus.action?menu.id=2754'
   ) {
     pageTitle.innerHTML === '辅修与双学位'
+  } else {
+    return
   }
+  clearInterval(changeTitle)
 }
 
 const addIcon = function () {
@@ -37,7 +41,8 @@ const addIcon = function () {
   icon.rel = 'shortcut icon'
   document.getElementsByTagName('head')[0].appendChild(icon)
 }
-
-window.onload = addTitle()
+window.addEventListener('click', function () {
+  var changeTitle = setInterval(addTitle, 100)
+})
 addIcon()
 console.log('success!')
