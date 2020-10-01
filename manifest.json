@@ -1,0 +1,17 @@
+{
+  "name": "UESTC Beautify",
+  "description": "An extension to beautify the eams website.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "assets/images/uestc.png"
+  },
+  "author": "Shaun Young",
+  "content_scripts": [
+    {
+      "matches": ["http://eams.uestc.edu.cn/*"],
+      "js": ["assets/js/beautify.js"]
+    }
+  ]
+}
