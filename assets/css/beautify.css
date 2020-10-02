@@ -1,0 +1,285 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  float: none !important;
+  outline: none !important;
+}
+
+a:link {
+  color: unset !important;
+}
+
+a:hover {
+  color: unset !important;
+}
+
+a:visited {
+  color: unset !important;
+}
+
+body {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+/* 首页 */
+#Nav_bar {
+  width: 100% !important;
+  height: 70px !important;
+  background-image: none !important;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) !important;
+  padding: 0 20px !important;
+  background-color: rgba(242, 242, 242, 1) !important;
+}
+
+#Nav_bar span {
+  color: #1263aa !important;
+}
+
+.top_box {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+}
+
+.top_box > * {
+  width: fit-content !important;
+}
+
+.member_box {
+  display: none;
+}
+
+.welcome_bar {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.welcome_bar span {
+  margin-right: 20px !important;
+}
+
+.welcome_bar span img {
+  border-radius: 100%;
+  transition: all ease-in-out 0.4s;
+}
+
+.welcome_bar span img:hover {
+  transform: rotate(540deg);
+}
+
+select {
+  width: 100px !important;
+  height: 30px !important;
+  border-radius: 10px !important;
+}
+
+input[type='submit'] {
+  width: 50px !important;
+  height: 30px !important;
+  border-radius: 10px !important;
+  background-color: #fff !important;
+  cursor: pointer !important;
+  transition: all 0.1s ease-in !important;
+}
+
+input[type='submit']:hover {
+  background-color: #1263aa !important;
+  color: #fff !important;
+}
+
+.div_box {
+  background-image: none !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.div_box a::after {
+  content: '' !important;
+  background-image: url('http://eams.uestc.edu.cn/eams/static/themes/default/images/homePage/00index_13.gif') !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin-left: 10px;
+  display: inline-block !important;
+}
+
+#BodyBg {
+  padding: 50px 100px !important;
+  width: 100% !important;
+}
+
+#MainBody {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+#position_bar {
+  align-self: flex-start !important;
+  color: #fff !important;
+}
+
+#positon_bar a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+#position_bar a:hover {
+  color: rgb(89, 153, 238) !important;
+  text-decoration: none !important;
+}
+
+#main {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  align-items: stretch !important;
+  align-self: stretch !important;
+  width: 100% !important;
+  height: fit-content !important;
+}
+
+#MLeft {
+  width: 70% !important;
+}
+
+#MRight {
+  width: 25% !important;
+}
+
+.list_box_1 {
+  border-radius: 18px !important;
+  box-shadow: 0 3px 18px rgba(255, 255, 255, 0.5) !important;
+  border: none !important;
+  background-color: #fff !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.list_box_1 ul {
+  /* display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  column-gap: 20px !important;
+  row-gap: 30px !important;
+  justify-items: center !important; */
+  display: flex !important;
+  justify-content: space-around !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  padding: 30px 50px !important;
+  height: 100% !important;
+}
+
+.list_box_1 .li_1 {
+  border: 1px solid #1263aa !important;
+  border-radius: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.list_box_1 a:hover {
+  color: #1263aa !important;
+}
+
+.list_box_2 {
+  border-radius: 18px !important;
+  box-shadow: 0 3px 18px rgba(255, 255, 255, 0.5) !important;
+  border: none !important;
+  background-color: #fff !important;
+  padding: 10px 20px !important;
+  width: 100% !important;
+}
+
+.BlankLine2 {
+  display: none !important;
+}
+
+#BottomBg {
+  color: #fff !important;
+}
+
+/* 插入元素 */
+#bgcontainer {
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+  position: fixed;
+}
+
+#author {
+  margin-top: 20px !important;
+}
+
+/* 我的信息 */
+.list_1 {
+  width: 100% !important;
+}
+
+/* 课程管理 */
+.list_box_3 {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  padding: 50px 90px !important;
+  border-radius: 18px !important;
+  box-shadow: 0 0 18px rgba(255, 255, 255, 0.5) !important;
+}
+
+.title_2 {
+  align-self: flex-start !important;
+}
+
+.list_1 tbody tr {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+}
+
+.td_4 {
+  width: 20% !important;
+}
+
+.td_4 h5 {
+  padding-left: 10px !important;
+}
+
+.td_4 div {
+  padding: 5px 10px !important;
+}
+
+.td_4 a {
+  text-decoration: none !important;
+  border-radius: 10px !important;
+  border: 1px solid #1263aa !important;
+  padding: 5px 10px !important;
+}
+
+.td_4 a:hover {
+  color: #1263aa !important;
+}
+
+.arrow_1 {
+  display: none !important;
+}
+
+.list_box_4 {
+  width: 100% !important;
+  color: #fff !important;
+}
+
+/* 辅修与双学位 */
+.td_1 {
+  width: fit-content !important;
+  padding: 0 20px !important;
+}

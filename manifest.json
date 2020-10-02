@@ -8,10 +8,16 @@
     "default_icon": "assets/images/uestc.png"
   },
   "author": "Shaun Young",
-  "content_scripts": [
-    {
-      "matches": ["http://eams.uestc.edu.cn/*"],
-      "js": ["assets/js/beautify.js"]
-    }
-  ]
+  "content_scripts": [{
+    "matches": ["http://eams.uestc.edu.cn/*"],
+    "js": ["assets/js/beautify.js"],
+    "css": ["assets/css/beautify.css"],
+    "run_at": "document_end"
+  }],
+  "permissions": ["storage"],
+  "icons": {
+    "16": "assets/images/uestc.png",
+    "48": "assets/images/uestc.png",
+    "128": "assets/images/uestc.png"
+  }
 }
