@@ -54,7 +54,8 @@ const getStorage = function (key) {
     console.log(result.bg)
     if (key === 'bg') {
       console.log('bg')
-      const body = document.getElementsByTagName('body')[0]
+      // const body = document.getElementsByTagName('body')[0]
+      const body = document.getElementById('bgicontainer')
       body.style =
         'background: url(' +
         result.bg +
@@ -78,12 +79,22 @@ const createBg = function () {
   body.appendChild(bgEl)
 }
 
+/**
+ * 创建背景图片容器
+ */
+const createBGI = function () {
+  const body = document.getElementsByTagName('body')[0]
+  const bgEl = document.createElement('div')
+  bgEl.id = 'bgicontainer'
+  body.appendChild(bgEl)
+}
+
 const addAuthor = function () {
   const bottom = document.getElementById('BottomBg')
   const author = document.createElement('div')
   author.id = 'author'
   author.innerHTML =
-    "Extension Designed By <a href='https://shaunyoung.cn'>Shaun Young</a> with <span style='color: red;'>❤</span>"
+    "Extension Designed By <a href='https://shaunyoung.cn' target='_blank'>Shaun Young</a> with <span style='color: red;'>❤</span>"
   bottom.appendChild(author)
 }
 
@@ -94,6 +105,7 @@ const main = async function () {
   addAuthor()
   addIcon()
   createBg()
+  createBGI()
   getStorage('bg')
   getStorage('avatar')
   console.log('success!')

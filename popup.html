@@ -1,22 +1,36 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="./assets/css/popup.css" />
   </head>
   <body>
-    <h1>教务系统美化</h1>
+    <div class="backdrop"></div>
+    <h1 class="title1">UESTC 教务系统美化</h1>
+    <hr />
     <div class="bg">
-      <h3>自定义背景</h3>
+      <h3 class="title2">自定义背景</h3>
       <div class="bg-form form">
         <input type="text" id="bg-input" placeholder="请输入背景图片Url" />
         <button id="bg-confirm">确认</button>
       </div>
+      <div class="now">当前Url：<span id="bg-url"></span></div>
     </div>
     <div class="avatar">
-      <h3>自定义头像</h3>
+      <h3 class="title2">自定义头像</h3>
       <div class="avatar-form form">
         <input type="text" id="avatar-input" placeholder="请输入头像图片Url" />
         <button id="avatar-confirm">确认</button>
       </div>
+      <div class="now">当前Url：<span id="av-url"></span></div>
+    </div>
+    <div class="right">
+      <button class="donate">赞赏一下</button>
+      <button class="suggest">意见&建议</button>
+    </div>
+    <div class="author">
+      Extension Designed By
+      <a href="https://shaunyoung.cn" target="_blank">Shaun Young</a> with
+      <span style="color: red">❤</span>
     </div>
     <script src="./assets/js/popup.js"></script>
   </body>
