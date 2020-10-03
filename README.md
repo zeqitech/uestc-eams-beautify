@@ -36,9 +36,11 @@
 ## 3.1 感谢您的鼎力相助
 
 * 微信：
-<img src="https://shaun.oss-cn-beijing.aliyuncs.com/typora/IMG_20201003_091738.jpg/watermark" alt="微信" style="zoom:40%;" />
+![微信](https://shaun.oss-cn-beijing.aliyuncs.com/typora/IMG_20201003_091738.jpg/watermark)
+
+
 * 支付宝：
-<img src="https://shaun.oss-cn-beijing.aliyuncs.com/typora/IMG_20201003_091839.jpg/watermark" alt="支付宝" style="zoom:33%;" />
+![支付宝](https://shaun.oss-cn-beijing.aliyuncs.com/typora/IMG_20201003_091839.jpg/watermark)
 
 ## 3.2 建议&意见
 
