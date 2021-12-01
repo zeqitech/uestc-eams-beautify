@@ -31,18 +31,7 @@
 > 重新进入教务系统，点击插件，输入自定义背景和头像的URL，点击确定即可👆
 > ⚠**注意：请输入完一个URL后点击对应的 “确认” 键**
 
-# 0x03 捐赠&建议
-
-## 3.1 感谢您的鼎力相助
-
-* 微信：
-![微信](https://shaun.oss-cn-beijing.aliyuncs.com/typora/IMG_20201003_091738.jpg/watermark)
-
-
-* 支付宝：
-![支付宝](https://shaun.oss-cn-beijing.aliyuncs.com/typora/IMG_20201003_091839.jpg/watermark)
-
-## 3.2 建议&意见
+# 0x03 建议&意见
 
 * [您可以在这里发起issue](https://github.com/shaunyoung-11/uestc-eams-beautify/issues)
 * [您也可以在我的博客中留言](https://shaunyoung.cn/archives/79/)
